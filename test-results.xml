@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.634" tests="17" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-12-01T06:08:19" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Collect test launch" timestamp="2018-12-01T06:08:19" tests="3" file="/Users/xuke/wallpaper-client/wallpaper-client/test/collect.test.js" failures="0" time="4.7059999999999995">
+    <testcase name="Collect test launch Shows the login window" time="0.017" classname="Shows the login window">
+    </testcase>
+    <testcase name="Collect test launch Login Success" time="2.43" classname="Login Success">
+    </testcase>
+    <testcase name="Collect test launch Click picture with id 1" time="2.259" classname="Click picture with id 1">
+    </testcase>
+  </testsuite>
+  <testsuite name="Like test launch" timestamp="2018-12-01T06:08:26" tests="3" file="/Users/xuke/wallpaper-client/wallpaper-client/test/like.test.js" failures="0" time="4.628">
+    <testcase name="Like test launch Shows the login window" time="0.014" classname="Shows the login window">
+    </testcase>
+    <testcase name="Like test launch Login Success" time="2.42" classname="Login Success">
+    </testcase>
+    <testcase name="Like test launch Click picture with id 1" time="2.194" classname="Click picture with id 1">
+    </testcase>
+  </testsuite>
+  <testsuite name="Login test launch" timestamp="2018-12-01T06:08:33" tests="4" file="/Users/xuke/wallpaper-client/wallpaper-client/test/login.test.js" failures="0" time="6.866">
+    <testcase name="Login test launch Shows the login window" time="0.014" classname="Shows the login window">
+    </testcase>
+    <testcase name="Login test launch Login Fail with invalid username" time="2.356" classname="Login Fail with invalid username">
+    </testcase>
+    <testcase name="Login test launch Login Fail with invalid password" time="2.265" classname="Login Fail with invalid password">
+    </testcase>
+    <testcase name="Login test launch Login Success" time="2.231" classname="Login Success">
+    </testcase>
+  </testsuite>
+  <testsuite name="Register test launch" timestamp="2018-12-01T06:08:42" tests="7" file="/Users/xuke/wallpaper-client/wallpaper-client/test/register.test.js" failures="0" time="5.433999999999999">
+    <testcase name="Register test launch Shows the login window" time="0.014" classname="Shows the login window">
+    </testcase>
+    <testcase name="Register test launch Shows the login window" time="0.012" classname="Shows the login window">
+    </testcase>
+    <testcase name="Register test launch Enter register page" time="4.111" classname="Enter register page">
+    </testcase>
+    <testcase name="Register test launch Register Fail with wrongly formatted email" time="0.393" classname="Register Fail with wrongly formatted email">
+    </testcase>
+    <testcase name="Register test launch Register Fail with inconsistant passwords" time="0.317" classname="Register Fail with inconsistant passwords">
+    </testcase>
+    <testcase name="Register test launch Register Fail with registered email" time="0.284" classname="Register Fail with registered email">
+    </testcase>
+    <testcase name="Register test launch Register Fail with too short password" time="0.303" classname="Register Fail with too short password">
+    </testcase>
+  </testsuite>
+</testsuites>

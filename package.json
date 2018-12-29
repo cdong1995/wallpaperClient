@@ -1,0 +1,73 @@
+{
+  "name": "wallpaper-client",
+  "version": "1.0.0",
+  "private": true,
+  "nyc": {
+    "exclude": [
+      "report",
+      "lib",
+      "coverage",
+      "**/config-overrides.js"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.11.0",
+    "child_process": "^1.0.2",
+    "electron-store": "^2.0.0",
+    "fs-finder": "^1.8.1",
+    "jsdom": "^13.0.0",
+    "later": "^1.2.0",
+    "react-app-rewired": "^1.6.2",
+    "react-scripts": "2.1.1",
+    "unsplash-js": "^4.8.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "dist": "electron-builder",
+    "test": "mocha --reporter mochawesome --reporter-options reportDir=./report/,reportFilename=mocha_test_report --exit",
+    "covertest": "nyc --reporter=text --reporter=html --all mocha --exit",
+    "citest": "mocha",
+    "eject": "react-scripts eject",
+    "estart": "electron .",
+    "eslint": "eslint *js --format html --output-file ./report/eslint.html",
+    "cieslint": "eslint *js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "main": "public/electron.js",
+  "homepage": ".",
+  "DEV": true,
+  "devDependencies": {
+    "antd": "^3.11.2",
+    "electron": "^3.0.11",
+    "electron-builder": "^20.38.3",
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.18.0",
+    "mochawesome": "^3.1.1",
+    "nyc": "^13.1.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "spectron": "^5.0.0"
+  },
+  "build": {
+    "appId": "com.wallpaper.Electron",
+    "mac": {
+      "category": "columbia.wallpaperAssistant.desktopApp.electronReact"
+    },
+    "files": [
+      "./build/**/*",
+      "./public/electron.js",
+      "./lib/*"
+    ]
+  }
+}
