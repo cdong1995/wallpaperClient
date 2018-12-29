@@ -1,8 +1,8 @@
 # Wallpaper-Workshop
 
-This is a course project created by Tianchen Min (tm2977), Ke Xu (kx2144), Can Dong (cd3032) and Jianing Yu (jy2929).
+This is a course project for COMS W4156 Advanced Software Engineering.
 
-Wallpaper Workshop is an Application for Mac OS X. It contains the following functions:
+Wallpaper Workshop contains the following functions:
 
 1. Create a wallpaper community among users:
     Users can share, collect and search for wallpapers. 
